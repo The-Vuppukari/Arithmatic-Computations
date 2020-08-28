@@ -10,4 +10,4 @@ ArthematicOperation2=$(( Input1 * Input2 + Input3 ))
 
 ArthematicOperation3=$(( Input3 + Input1 / Input2 ))
 
-ArthematicOperation2=$(( Input1 % Input2 + Input3 ))
+ArthematicOperation4=$(( Input1 % Input2 + Input3 ))
