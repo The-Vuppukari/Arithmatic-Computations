@@ -23,8 +23,7 @@ Dictionary[Comp4]=$ArthematicOperation4
 
 for value in `echo ${Dictionary[@]}`
 do
-	ComputeArray[i]=$value
-	((i++))
+	ComputeArray[((i++))]=$value
 done
 
 
